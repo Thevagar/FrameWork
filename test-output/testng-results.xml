@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[execution from m1]]>
+    </line>
+    <line>
+      <![CDATA[execution from m4]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-12-23T10:50:25 IST" name="Suite" finished-at="2025-12-23T10:50:25 IST" duration-ms="114">
+    <groups>
+      <group name="smoke testing">
+        <method signature="M12.m1()[pri:0, instance:testNg.M12@76505305]" name="m1" class="testNg.M12"/>
+        <method signature="M12.m4()[pri:0, instance:testNg.M12@76505305]" name="m4" class="testNg.M12"/>
+      </group> <!-- smoke testing -->
+    </groups>
+    <test started-at="2025-12-23T10:50:25 IST" name="Test" finished-at="2025-12-23T10:50:25 IST" duration-ms="114">
+      <class name="testNg.M12">
+        <test-method signature="m1()[pri:0, instance:testNg.M12@76505305]" started-at="2025-12-23T10:50:25 IST" name="m1" finished-at="2025-12-23T10:50:25 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[execution from m1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method signature="m4()[pri:0, instance:testNg.M12@76505305]" started-at="2025-12-23T10:50:25 IST" name="m4" finished-at="2025-12-23T10:50:25 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[execution from m4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m4 -->
+      </class> <!-- testNg.M12 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
